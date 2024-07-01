@@ -9,6 +9,13 @@ app.use(cors())
 
 const port = process.env.PORT || 3000;
 
+/**
+ * Aquí invocamos las rutas
+ */
+
+app.use("/api", require("./routes/"))
+
+
 
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);
