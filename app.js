@@ -24,6 +24,6 @@ app.listen(port, () => {
 dbConnect()
 
 /**
- * Curso quedó en minuto 45:00
- * https://youtu.be/xRXHQlqA3Ak?si=qxUbpVrJ_7cK_Sau&t=2758
+ * Curso quedó en minuto 1:24:00
+ * https://youtu.be/xRXHQlqA3Ak?si=oynqSvig-CWFTaSs&t=5060
  */
