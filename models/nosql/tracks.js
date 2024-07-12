@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-
+const mongooseDelete = require("mongoose-delete")
 const TracksScheme = new mongoose.Schema(
     {
         name: {
@@ -49,6 +49,7 @@ const TracksScheme = new mongoose.Schema(
     }
 )
 
+TracksScheme.plugin(mongooseDelete, {overrideMethods: 'all'})
 module.exports = mongoose.model("tracks", TracksScheme) //"users" es el nombre de la colección del model
 
 
